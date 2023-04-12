@@ -1,4 +1,4 @@
-#EX-04--Histogram and Histogram Equalization of an image
+# EX-04--Histogram and Histogram Equalization of an image
 ## Aim
 To obtain a histogram for finding the frequency of pixels in an Image with pixel values ranging from 0 to 255. Also write the code using OpenCV to perform histogram equalization.
 
@@ -53,9 +53,7 @@ h2 = cv2.calcHist([color_image],[1],None,[256],[0,255])
 h3 = cv2.calcHist([color_image],[2],None,[256],[0,255]) 
 ```
 
-
 ## Display the histogram of gray scale image and any one channel histogram from color image
-
 
 ### Gray Image
 ```python
@@ -75,7 +73,6 @@ cv2.imshow('color_image',color_image)
 cv2.waitKey(0) 
 cv2.destroyAllWindows()
 ```
-
 
 ## Write the code to perform histogram equalization of the image.
 ```python
